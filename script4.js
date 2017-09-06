@@ -20,3 +20,5 @@ function checkTime(i) {
 
 console.log(onload="checkTime(i)");
 alert(onload="checkTime(i)");
+
+document.getElementById('txt').innerHTML=startTime();
