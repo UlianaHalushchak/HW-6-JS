@@ -9,7 +9,7 @@ function myFunction1() {
 
 function myFunction2() {
     var dollar = prompt("change dollar")
-    alert("your money " + dollar * 25 + "UAH");
+    alert("your money " + dollar * 26 + "UAH");
 }
 
 function myFunction3() {
