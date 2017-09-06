@@ -1,4 +1,4 @@
-var euro = document.getElementByClass("myList1");
+var euro = document.getElementById("txt");
 	var dollar = document.getElementByClass("myList2");
 	var euroDollar = document.getElementByClass("myList3");
 
