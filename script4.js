@@ -18,7 +18,4 @@ function checkTime(i) {
     return i;
 }
 
-console.log(onload="checkTime(i)");
-alert(onload="checkTime(i)");
-
 document.getElementById('txt').innerHTML=startTime();
