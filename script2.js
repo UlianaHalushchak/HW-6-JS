@@ -58,3 +58,11 @@ var response2 = prompt("Last Name?");
 var response3 = prompt("Email?");
 var response4 = prompt("Telephone No.?");
 add(response1, response2, response3, response4);
+
+
+var personName = "Ulya";
+var time = " 26 of october";
+var place = "Lviv"
+var event = prompt("Виставки Куди зникло море - do you want to visit?")
+
+alert(personName + "is visiting " + event + " in " + place + time);
