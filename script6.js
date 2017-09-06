@@ -13,6 +13,6 @@ function myFunction2() {
 }
 
 function myFunction3() {
-    var euroDollar = prompt("change?")
+    var euroDollar = prompt("change euro per dollar")
     alert("your money " + euroDollar * 1.08 + "$");
 }
