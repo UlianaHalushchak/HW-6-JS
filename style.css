@@ -1,5 +1,5 @@
 body {
-    background-color: #581845  ;
+    background-color: #F08080;
     background-attachment: fixed;
     font-size: 20px;
     line-height: 18px;
@@ -8,12 +8,12 @@ body {
 }
 #txt { 
     width: 200px; 
-    background-image: url("img/trees.png"); 
+    background-color: #FFE4E1; 
     background-repeat: no-repeat;
     padding: 5px; 
     border: solid 1px black; 
     float: left; 
     position: relative; 
     top: 40px; 
-    left: -70px; 
+    left: 70px; 
    }
