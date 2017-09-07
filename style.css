@@ -1,15 +1,20 @@
 body {
-    background-color: #F08080;
+    background-color: #212223;
+    background-attachment: fixed;
     font-size: 20px;
     line-height: 18px;
-    color: #333;
+    color: #af621d;
     font-family: serif;
 }
 #txt { 
-    width: 200px; 
-    background-color: #FFE4E1; 
+    width:130x; 
+    height:300px;
+    font-size:150px;
+    background-image: url("img/trees.png"); 
     background-repeat: no-repeat;
-    padding: 5px; 
+    padding: 110px; 
+    margin: 1px 200px;
+    margin-bottom: 100px:
     border: solid 1px black; 
     float: left; 
     position: relative; 
