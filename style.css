@@ -6,7 +6,7 @@ body {
     color: #333;
     font-family: serif;
 }
-.div { 
+.div:txt { 
     width: 200px; 
     background-image: url("img/trees.png"); 
     background-repeat: no-repeat;
