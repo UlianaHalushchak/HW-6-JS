@@ -21,3 +21,18 @@ body {
     top: 40px; 
     left: 70px; 
    }
+
+.list { 
+    width:130x; 
+    height:300px;
+    font-size:50px;
+    padding: 10px; 
+    margin: 1px 20px;
+    margin-bottom: 100px:
+    border: solid 1px black; 
+    float: right; 
+    position: relative; 
+    top: 40px; 
+    left: 70px;    
+    
+}
