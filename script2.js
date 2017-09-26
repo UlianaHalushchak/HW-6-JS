@@ -1,19 +1,11 @@
 var andru = {
     firstName: "Andru",
     lastName: "Myhasj",
-
-    phoneNumber: "(068) 777 - 7777",
-    email: "andru.myhasj@example.com"
 };
 
 var marija = {
     firstName: "Marija",
     lastName: "Myhasj",
-
-
-
- phoneNumber: "(068) 888 - 8888",
-    email: "marija.myhasj@example.com"
 };
 
 var contacts = [andru, marija];
@@ -38,16 +30,13 @@ var search = function(lastName) {
     }
 };
 
-var add  = function(firstName, lastName, email, telephone)
+var add  = function(firstName, lastName,)
 {
 var contactSize = contacts.length;
 var Person = new Object();
 Person.firstName = firstName;
 Person.lastName = lastName;
-Person.email = email;
-Person.telephone = telephone;
 contacts[contactSize] = Person;
-
 
 };
 
@@ -55,8 +44,4 @@ list();
 search("Myhasj");
 var response1 = prompt("First Name?");
 var response2 = prompt("Last Name?");
-var response3 = prompt("Email?");
-var response4 = prompt("Telephone No.?");
-add(response1, response2, response3, response4);
-
-
+add(response1, response2);
